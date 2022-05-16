@@ -18,7 +18,7 @@
         
         <b>request.getParameterValues() 사용</b><br>
         <% 
-            String[] values = request.getParameterValues("pet");
+            String[] values = request.getParameterValues("name");
             if(values!=null){
                 for (int i=0;i<values.length;i++){
         %>
@@ -48,6 +48,7 @@
             if(addrParam!=null){
         %>
             <%=addrParam[0]%>
+            <%=addrParam[1]%>
         <%
                 }
         %>
