@@ -7,7 +7,7 @@
 
 <html>
     <head>
-    <title>View the Parameter received</title>
+    <title>View HTTP Header</title>
     </head>
     <body>
         <% 
@@ -21,6 +21,17 @@
         
         <% 
                     }
+        %>
+
+        <!--set response header -->
+        <% 
+            response.setHeader("Cache-Control","no-cache");
+            response.addtHeader("Cache-Control","no-store");
+            
+            //for HTTP 1.0 browser
+            response.setHeader("Pragma","No-cache");
+
+            response.setDateHeader("Expirses",1L);
         %>
 
     </body>
