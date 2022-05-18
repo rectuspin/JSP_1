@@ -18,6 +18,10 @@
             }
         %>
         </ol>
+
+        <% application.log("leaving initial message with application.log method"); %><br>
+        <% log("leaving initial message with JSP log method"); %><br>
+
     </body>
 </html>
 
