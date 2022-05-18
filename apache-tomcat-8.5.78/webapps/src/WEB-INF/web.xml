@@ -1,0 +1,6 @@
+
+<context-param>
+    <description>sample web.xml file</description>
+    <param-name>sample_name</param-name>
+    <param-value>sample_value</param-value>
+</context-param>
