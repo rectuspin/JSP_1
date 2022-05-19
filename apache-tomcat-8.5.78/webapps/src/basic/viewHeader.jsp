@@ -31,7 +31,7 @@
             //for HTTP 1.0 browser
             response.setHeader("Pragma","No-cache");
 
-            response.setDateHeader("Expirses",1L);
+            response.setDateHeader("Expires",1L);
         %>
 
     </body>
