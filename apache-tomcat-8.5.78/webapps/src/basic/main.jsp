@@ -9,7 +9,13 @@
         <jsp:include page="sub.jsp" flush="false" /><br>
         <jsp:include page="first.jsp" flush="false" /><br>
         <jsp:include page="form.jsp" flush="false" /><br>
-        Content after include in main.jsp<br>
+
+        <jsp:include page="setAppAttr.jsp" flush="false" >
+            <jsp:param name="name" value="Christopher" />
+            <jsp:param name="value" value="Infinite" />
+        </jsp:include>
+        
+        <br><br>Content after include in main.jsp<br>
     </body>
 </html>
 
