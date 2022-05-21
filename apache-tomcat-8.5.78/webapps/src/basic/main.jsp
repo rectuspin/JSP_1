@@ -2,12 +2,14 @@
 
 <html>
     <head>
-    <title>View Application Attr1bute</title>
+    <title>main</title>
     </head>
     <body>
-        This is the content in main.jsp
-        <jsp:include page="sub.jsp flush="false" />
-        Content after include in manin.jsp
+        This is the content in main.jsp<br>
+        <jsp:include page="sub.jsp" flush="false" /><br>
+        <jsp:include page="first.jsp" flush="false" /><br>
+        <jsp:include page="form.jsp" flush="false" /><br>
+        Content after include in main.jsp<br>
     </body>
 </html>
 

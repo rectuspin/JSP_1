@@ -1,3 +1,163 @@
 20-May-2022 00:00:15.888 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/src]
 20-May-2022 00:00:15.889 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/src] has started
 20-May-2022 00:00:15.930 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/src] is completed
+20-May-2022 00:54:36.930 SEVERE [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [10] in the jsp file: [/basic/viewAppAttr.jsp]
+name cannot be resolved to a variable
+7:     </head>
+8:     <body>
+9:         Enumeration<String> attrEnum=application.getAttributeNames();
+10:         <%if (name != null && value !=null){ %>
+11:         <%=name%> = <%=value%>
+12:         <% 
+13:             } else{
+
+
+An error occurred at line: [10] in the jsp file: [/basic/viewAppAttr.jsp]
+value cannot be resolved to a variable
+7:     </head>
+8:     <body>
+9:         Enumeration<String> attrEnum=application.getAttributeNames();
+10:         <%if (name != null && value !=null){ %>
+11:         <%=name%> = <%=value%>
+12:         <% 
+13:             } else{
+
+
+An error occurred at line: [11] in the jsp file: [/basic/viewAppAttr.jsp]
+name cannot be resolved to a variable
+8:     <body>
+9:         Enumeration<String> attrEnum=application.getAttributeNames();
+10:         <%if (name != null && value !=null){ %>
+11:         <%=name%> = <%=value%>
+12:         <% 
+13:             } else{
+14:         %>
+
+
+An error occurred at line: [11] in the jsp file: [/basic/viewAppAttr.jsp]
+value cannot be resolved to a variable
+8:     <body>
+9:         Enumeration<String> attrEnum=application.getAttributeNames();
+10:         <%if (name != null && value !=null){ %>
+11:         <%=name%> = <%=value%>
+12:         <% 
+13:             } else{
+14:         %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [10] in the jsp file: [/basic/viewAppAttr.jsp]
+name cannot be resolved to a variable
+7:     </head>
+8:     <body>
+9:         Enumeration<String> attrEnum=application.getAttributeNames();
+10:         <%if (name != null && value !=null){ %>
+11:         <%=name%> = <%=value%>
+12:         <% 
+13:             } else{
+
+
+An error occurred at line: [10] in the jsp file: [/basic/viewAppAttr.jsp]
+value cannot be resolved to a variable
+7:     </head>
+8:     <body>
+9:         Enumeration<String> attrEnum=application.getAttributeNames();
+10:         <%if (name != null && value !=null){ %>
+11:         <%=name%> = <%=value%>
+12:         <% 
+13:             } else{
+
+
+An error occurred at line: [11] in the jsp file: [/basic/viewAppAttr.jsp]
+name cannot be resolved to a variable
+8:     <body>
+9:         Enumeration<String> attrEnum=application.getAttributeNames();
+10:         <%if (name != null && value !=null){ %>
+11:         <%=name%> = <%=value%>
+12:         <% 
+13:             } else{
+14:         %>
+
+
+An error occurred at line: [11] in the jsp file: [/basic/viewAppAttr.jsp]
+value cannot be resolved to a variable
+8:     <body>
+9:         Enumeration<String> attrEnum=application.getAttributeNames();
+10:         <%if (name != null && value !=null){ %>
+11:         <%=name%> = <%=value%>
+12:         <% 
+13:             } else{
+14:         %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:569)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:380)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+20-May-2022 00:54:40.363 SEVERE [http-nio-8080-exec-19] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.basic.viewAppAttr_jsp] with root cause
+	java.lang.ClassNotFoundException: org.apache.jsp.basic.viewAppAttr_jsp
+		at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:158)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:191)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:412)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
