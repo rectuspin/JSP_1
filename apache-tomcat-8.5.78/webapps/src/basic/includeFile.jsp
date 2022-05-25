@@ -2,11 +2,12 @@
 
 <html>
     <head>
-    <title>Include file</title>
+    <title>Include file with include directive</title>
     </head>
     
     <body>
         <% int num=10; %>
+        <!--include directive include file as part of code -->
         <%@ include file="includee.jspf" %>
 
         common variable = "<%=dataFolder%>"
