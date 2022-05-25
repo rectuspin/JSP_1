@@ -5,3 +5,4 @@ number in includefile.jsp: <%=num %>
 <%
     String dataFolder="/home/tomcat";
 %>
+<%=new java.util.Date() %><br>

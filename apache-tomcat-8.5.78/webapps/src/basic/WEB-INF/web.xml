@@ -16,4 +16,13 @@
     <param-name>sample_name2</param-name>
     <param-value>20</param-value>
 </context-param>
+
+<jsp-config>
+  <jsp-property-group>
+    <url-pattern></url-pattern>
+    <include-prelude>/src/basic/includee.jspf</include-prelude>
+    <include-coda></include-coda>
+  </jsp-property-group>
+</jsp-config>
+
 </web-app>
