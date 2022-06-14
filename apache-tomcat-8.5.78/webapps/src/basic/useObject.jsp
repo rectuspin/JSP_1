@@ -1,4 +1,15 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<jsp:useBean id="member" scope="request" class="classes.MemberInfo"/>
+<jsp:useBean id="member" class="classes.MemberInfo" scope="request" />
 
-<%=member.getName(); %> <%=member.getId();%>
+
+<html>
+    <head>
+    <title>form</title>
+    </head>
+    <body>
+      <%=member.getName() %> (<%=member.getId()%>)
+
+
+    </body>
+</html>
+

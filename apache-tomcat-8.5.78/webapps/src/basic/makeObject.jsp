@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<jsp:useBean id="member" scope="request" class="basic.classes.MemberInfo" />
+<jsp:useBean id="member" class="classes.MemberInfo" scope="request" />
 
 <%
     member.setId("chrisyu");
