@@ -4,12 +4,12 @@
 
 <html>
     <head>
-    <title>form</title>
+    <title>Use Object using JavaBean</title>
     </head>
     <body>
       <%=member.getName() %> (<%=member.getId()%>)
 
-
+        
     </body>
 </html>
 

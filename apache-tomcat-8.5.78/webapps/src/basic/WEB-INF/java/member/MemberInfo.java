@@ -31,7 +31,11 @@ public class MemberInfo{
     public Date getRegisterDate(){
         return registerDate;
     }
+    public String getEmail (){
+        return email;
+    }
     public void setEmail (String val){
         this.email=val;
     }
+
 }
