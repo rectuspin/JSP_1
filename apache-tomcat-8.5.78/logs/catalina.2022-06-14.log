@@ -1,0 +1,88 @@
+14-Jun-2022 17:58:59.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+14-Jun-2022 17:58:59.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+14-Jun-2022 17:58:59.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+14-Jun-2022 17:58:59.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Jun-2022 17:58:59.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1160.36.2.el7.x86_64
+14-Jun-2022 17:58:59.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Jun-2022 17:58:59.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/jdk1.8.0_301/jre
+14-Jun-2022 17:58:59.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tomcat/apache-tomcat-8.5.78
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tomcat/apache-tomcat-8.5.78
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tomcat/apache-tomcat-8.5.78/conf/logging.properties
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tomcat/apache-tomcat-8.5.78
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tomcat/apache-tomcat-8.5.78
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tomcat/apache-tomcat-8.5.78/temp
+14-Jun-2022 17:58:59.662 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+14-Jun-2022 17:59:08.881 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Jun-2022 17:59:09.159 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 16130 ms
+14-Jun-2022 17:59:10.433 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Jun-2022 17:59:10.433 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+14-Jun-2022 17:59:10.937 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war]
+14-Jun-2022 17:59:13.168 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war] has finished in [2,217] ms
+14-Jun-2022 17:59:13.171 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT]
+14-Jun-2022 17:59:13.315 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT] has finished in [144] ms
+14-Jun-2022 17:59:13.315 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs]
+14-Jun-2022 17:59:13.473 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs] has finished in [158] ms
+14-Jun-2022 17:59:13.473 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples]
+14-Jun-2022 17:59:15.857 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+14-Jun-2022 17:59:15.857 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+14-Jun-2022 17:59:15.858 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@df580a0')
+14-Jun-2022 17:59:15.867 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples] has finished in [2,394] ms
+14-Jun-2022 17:59:15.867 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager]
+14-Jun-2022 17:59:15.979 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager] has finished in [112] ms
+14-Jun-2022 17:59:15.979 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager]
+14-Jun-2022 17:59:16.147 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager] has finished in [168] ms
+14-Jun-2022 17:59:16.147 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src]
+14-Jun-2022 17:59:16.154 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src] has finished in [7] ms
+14-Jun-2022 17:59:16.164 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Jun-2022 17:59:17.035 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7875 ms
+14-Jun-2022 18:38:05.296 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [/basic/makeObject.jsp (line: [2], column: [0]) The value for the useBean class attribute [basic.classes.MemberInfo] is invalid.] with root cause
+	org.apache.jasper.JasperException: /basic/makeObject.jsp (line: [2], column: [0]) The value for the useBean class attribute [basic.classes.MemberInfo] is invalid.
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:115)
+		at org.apache.jasper.compiler.Generator$GenerateVisitor.visit(Generator.java:1369)
+		at org.apache.jasper.compiler.Node$UseBean.accept(Node.java:1187)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2385)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2437)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2443)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:471)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2385)
+		at org.apache.jasper.compiler.Generator.generate(Generator.java:3586)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:253)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
