@@ -1,0 +1,6 @@
+192.168.1.21 - - [15/Aug/2022:21:38:52 +0900] "GET /src/basic/viewAppAttr.jsp HTTP/1.1" 200 3444
+192.168.1.21 - - [15/Aug/2022:21:38:53 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+192.168.1.21 - - [15/Aug/2022:21:40:11 +0900] "GET /src/basic/update.jsp HTTP/1.1" 500 8253
+192.168.1.21 - - [15/Aug/2022:21:40:15 +0900] "GET /src/basic/updateForm.jsp HTTP/1.1" 200 394
+192.168.1.21 - - [15/Aug/2022:21:40:18 +0900] "POST /chap14/update/update.jsp HTTP/1.1" 404 803
+192.168.1.21 - - [15/Aug/2022:21:40:30 +0900] "GET /src/basic/viewMemberList.jsp HTTP/1.1" 200 484

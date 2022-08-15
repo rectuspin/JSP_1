@@ -1,0 +1,2578 @@
+16-Jul-2022 12:41:47.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+16-Jul-2022 12:41:47.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+16-Jul-2022 12:41:47.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+16-Jul-2022 12:41:47.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Jul-2022 12:41:47.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1160.36.2.el7.x86_64
+16-Jul-2022 12:41:47.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Jul-2022 12:41:47.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/jdk1.8.0_301/jre
+16-Jul-2022 12:41:47.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tomcat/apache-tomcat-8.5.78/conf/logging.properties
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Jul-2022 12:41:47.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 12:41:47.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 12:41:47.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tomcat/apache-tomcat-8.5.78/temp
+16-Jul-2022 12:41:47.642 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2022 12:41:49.704 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 12:41:49.884 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 5271 ms
+16-Jul-2022 12:41:50.162 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2022 12:41:50.163 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+16-Jul-2022 12:41:50.275 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war]
+16-Jul-2022 12:41:51.328 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war] has finished in [1,049] ms
+16-Jul-2022 12:41:51.328 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT]
+16-Jul-2022 12:41:51.398 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT] has finished in [70] ms
+16-Jul-2022 12:41:51.398 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs]
+16-Jul-2022 12:41:51.463 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs] has finished in [65] ms
+16-Jul-2022 12:41:51.463 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples]
+16-Jul-2022 12:41:52.380 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jul-2022 12:41:52.380 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jul-2022 12:41:52.381 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@a37ab33')
+16-Jul-2022 12:41:52.386 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples] has finished in [923] ms
+16-Jul-2022 12:41:52.386 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager]
+16-Jul-2022 12:41:52.422 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager] has finished in [36] ms
+16-Jul-2022 12:41:52.423 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager]
+16-Jul-2022 12:41:52.627 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager] has finished in [204] ms
+16-Jul-2022 12:41:52.628 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src]
+16-Jul-2022 12:41:52.636 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src] has finished in [8] ms
+16-Jul-2022 12:41:52.642 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 12:41:52.732 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2848 ms
+16-Jul-2022 17:49:53.807 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList.jsp] at line [19]
+
+16: </tr>
+17: <%
+18: 	// 1. JDBC 드라이버 로딩
+19: 	Class.forName("com.mysql.jdbc.Driver");
+20: 	
+21: 	Connection conn = null;
+22: 	Statement stmt = null;
+
+
+Stacktrace:] with root cause
+	java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1420)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:122)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:264)
+		at org.apache.jsp.basic.viewMemberList_jsp._jspService(viewMemberList_jsp.java:137)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:01:41.929 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList.jsp] at line [19]
+
+16: </tr>
+17: <%
+18: 	// 1. JDBC 드라이버 로딩
+19: 	Class.forName("com.mysql.jdbc.Driver");
+20: 	
+21: 	Connection conn = null;
+22: 	Statement stmt = null;
+
+
+Stacktrace:] with root cause
+	java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1420)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:122)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:264)
+		at org.apache.jsp.basic.viewMemberList_jsp._jspService(viewMemberList_jsp.java:137)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:01:42.951 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList.jsp] at line [19]
+
+16: </tr>
+17: <%
+18: 	// 1. JDBC 드라이버 로딩
+19: 	Class.forName("com.mysql.jdbc.Driver");
+20: 	
+21: 	Connection conn = null;
+22: 	Statement stmt = null;
+
+
+Stacktrace:] with root cause
+	java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1420)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:122)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:264)
+		at org.apache.jsp.basic.viewMemberList_jsp._jspService(viewMemberList_jsp.java:137)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:02:23.586 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Jul-2022 18:02:23.586 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:02:23.588 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Jul-2022 18:02:23.629 INFO [jspsvr-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jul-2022 18:02:23.630 INFO [jspsvr-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jul-2022 18:02:23.643 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:02:23.651 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:03:35.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+16-Jul-2022 18:03:35.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+16-Jul-2022 18:03:35.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+16-Jul-2022 18:03:35.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Jul-2022 18:03:35.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1160.36.2.el7.x86_64
+16-Jul-2022 18:03:35.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Jul-2022 18:03:35.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/jdk1.8.0_301/jre
+16-Jul-2022 18:03:35.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tomcat/apache-tomcat-8.5.78/conf/logging.properties
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tomcat/apache-tomcat-8.5.78/temp
+16-Jul-2022 18:03:35.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2022 18:03:35.382 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:03:35.398 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 429 ms
+16-Jul-2022 18:03:35.421 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2022 18:03:35.421 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+16-Jul-2022 18:03:35.434 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war]
+16-Jul-2022 18:03:35.825 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:03:35.842 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war] has finished in [408] ms
+16-Jul-2022 18:03:35.843 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT]
+16-Jul-2022 18:03:35.973 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:03:35.974 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT] has finished in [131] ms
+16-Jul-2022 18:03:35.974 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs]
+16-Jul-2022 18:03:36.094 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:03:36.095 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs] has finished in [121] ms
+16-Jul-2022 18:03:36.095 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples]
+16-Jul-2022 18:03:36.314 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:03:36.320 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jul-2022 18:03:36.320 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jul-2022 18:03:36.321 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@684ad8d2')
+16-Jul-2022 18:03:36.326 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples] has finished in [231] ms
+16-Jul-2022 18:03:36.326 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager]
+16-Jul-2022 18:03:36.466 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:03:36.468 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager] has finished in [142] ms
+16-Jul-2022 18:03:36.469 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager]
+16-Jul-2022 18:03:36.614 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:03:36.615 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager] has finished in [146] ms
+16-Jul-2022 18:03:36.616 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src]
+16-Jul-2022 18:03:36.756 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:03:36.770 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src] has finished in [154] ms
+16-Jul-2022 18:03:36.772 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:03:36.781 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1383 ms
+16-Jul-2022 18:17:51.846 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:23:19.708 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:23:21.179 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:23:21.654 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:23:21.905 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:23:49.541 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:23:50.292 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:23:50.718 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:23:50.721 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:25:50.119 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [32]
+
+29: 	String query = "select * from MEMBER";
+30: 	
+31: 	// 2. 데이터베이스 커넥션 생성
+32: 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+33: 	
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:31:14.883 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Jul-2022 18:31:14.883 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:31:14.885 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Jul-2022 18:31:14.898 INFO [jspsvr-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jul-2022 18:31:14.898 INFO [jspsvr-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jul-2022 18:31:14.906 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:31:14.908 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:31:18.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1160.36.2.el7.x86_64
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/jdk1.8.0_301/jre
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 18:31:18.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tomcat/apache-tomcat-8.5.78/conf/logging.properties
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tomcat/apache-tomcat-8.5.78
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tomcat/apache-tomcat-8.5.78/temp
+16-Jul-2022 18:31:18.163 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2022 18:31:18.273 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:31:18.287 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 424 ms
+16-Jul-2022 18:31:18.309 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2022 18:31:18.309 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+16-Jul-2022 18:31:18.341 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war]
+16-Jul-2022 18:31:18.638 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:31:18.657 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war] has finished in [315] ms
+16-Jul-2022 18:31:18.658 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT]
+16-Jul-2022 18:31:18.804 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:31:18.805 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT] has finished in [147] ms
+16-Jul-2022 18:31:18.805 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs]
+16-Jul-2022 18:31:18.932 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:31:18.933 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs] has finished in [128] ms
+16-Jul-2022 18:31:18.933 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples]
+16-Jul-2022 18:31:19.152 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:31:19.158 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jul-2022 18:31:19.158 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jul-2022 18:31:19.159 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@684ad8d2')
+16-Jul-2022 18:31:19.217 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples] has finished in [283] ms
+16-Jul-2022 18:31:19.217 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager]
+16-Jul-2022 18:31:19.344 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:31:19.349 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager] has finished in [132] ms
+16-Jul-2022 18:31:19.349 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager]
+16-Jul-2022 18:31:19.491 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:31:19.493 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager] has finished in [144] ms
+16-Jul-2022 18:31:19.493 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src]
+16-Jul-2022 18:31:19.608 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jul-2022 18:31:19.616 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src] has finished in [123] ms
+16-Jul-2022 18:31:19.619 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2022 18:31:19.627 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1339 ms
+16-Jul-2022 18:35:39.275 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [javax.servlet.ServletException: java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)] with root cause
+	java.sql.SQLException: Access denied for user 'testuser'@'192.168.1.92' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:150)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:43:16.459 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Illegal operation on empty result set.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:49.631 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:50.211 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:50.888 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:51.210 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:51.368 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:51.537 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:51.738 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:52.053 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:52.311 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:52.528 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:44:58.954 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [43]
+
+40: 	// 5. 쿼리 실행 결과 출력
+41: %>
+42: <tr>
+43: 	<td><%= rs.getString("name") %></td>
+44: 	<td><%= rs.getString("memberid") %></td>
+45: 	<td><%= rs.getString("password") %></td>
+46: </tr>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:45:20.047 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [57] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable conn
+54: 	// 1. JDBC 드라이버 로딩
+55: 	Class.forName("com.mysql.jdbc.Driver");
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+
+
+An error occurred at line: [58] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable stmt
+55: 	Class.forName("com.mysql.jdbc.Driver");
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+
+
+An error occurred at line: [59] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable rs
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+
+
+An error occurred at line: [62] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable jdbcDriver
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+
+
+An error occurred at line: [63] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable dbUser
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+
+
+An error occurred at line: [64] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable dbPass
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+67: 		
+
+
+An error occurred at line: [66] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable query
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+67: 		
+68: 		// 2. 데이터베이스 커넥션 생성
+69: 		conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [57] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable conn
+54: 	// 1. JDBC 드라이버 로딩
+55: 	Class.forName("com.mysql.jdbc.Driver");
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+
+
+An error occurred at line: [58] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable stmt
+55: 	Class.forName("com.mysql.jdbc.Driver");
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+
+
+An error occurred at line: [59] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable rs
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+
+
+An error occurred at line: [62] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable jdbcDriver
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+
+
+An error occurred at line: [63] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable dbUser
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+
+
+An error occurred at line: [64] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable dbPass
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+67: 		
+
+
+An error occurred at line: [66] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable query
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+67: 		
+68: 		// 2. 데이터베이스 커넥션 생성
+69: 		conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:569)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:380)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:45:28.533 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [57] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable conn
+54: 	// 1. JDBC 드라이버 로딩
+55: 	Class.forName("com.mysql.jdbc.Driver");
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+
+
+An error occurred at line: [58] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable stmt
+55: 	Class.forName("com.mysql.jdbc.Driver");
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+
+
+An error occurred at line: [59] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable rs
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+
+
+An error occurred at line: [62] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable jdbcDriver
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+
+
+An error occurred at line: [63] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable dbUser
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+
+
+An error occurred at line: [64] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable dbPass
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+67: 		
+
+
+An error occurred at line: [66] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable query
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+67: 		
+68: 		// 2. 데이터베이스 커넥션 생성
+69: 		conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [57] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable conn
+54: 	// 1. JDBC 드라이버 로딩
+55: 	Class.forName("com.mysql.jdbc.Driver");
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+
+
+An error occurred at line: [58] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable stmt
+55: 	Class.forName("com.mysql.jdbc.Driver");
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+
+
+An error occurred at line: [59] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable rs
+56: 	
+57: 	Connection conn = null;
+58: 	Statement stmt = null;
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+
+
+An error occurred at line: [62] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable jdbcDriver
+59: 	ResultSet rs = null;
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+
+
+An error occurred at line: [63] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable dbUser
+60: 	
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+
+
+An error occurred at line: [64] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable dbPass
+61: 	try {
+62: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+67: 		
+
+
+An error occurred at line: [66] in the jsp file: [/basic/viewMemberList2.jsp]
+Duplicate local variable query
+63: 		String dbUser = "dbuser";
+64: 		String dbPass = "Dbuser1!";
+65: 		
+66: 		String query = "select * from MEMBER order by memberid";
+67: 		
+68: 		// 2. 데이터베이스 커넥션 생성
+69: 		conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:569)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:380)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:45:28.905 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [37]
+
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+36: 	
+37: 	// 4. 쿼리 실행<%@ page contentType = "text/html; charset=utf-8" %>
+38: <%@ page import = "java.sql.DriverManager" %>
+39: <%@ page import = "java.sql.Connection" %>
+40: <%@ page import = "java.sql.Statement" %>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 18:45:29.118 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [An exception occurred processing [/basic/viewMemberList2.jsp] at line [37]
+
+34: 	// 3. Statement 생성
+35: 	stmt = conn.createStatement();
+36: 	
+37: 	// 4. 쿼리 실행<%@ page contentType = "text/html; charset=utf-8" %>
+38: <%@ page import = "java.sql.DriverManager" %>
+39: <%@ page import = "java.sql.Connection" %>
+40: <%@ page import = "java.sql.Statement" %>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Before start of result set
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:532)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:878)
+		at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:896)
+		at org.apache.jsp.basic.viewMemberList2_jsp._jspService(viewMemberList2_jsp.java:163)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 19:27:13.399 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [66] in the jsp file: [/basic/viewMemberList.jsp]
+dbUser cannot be resolved to a variable
+63: </table>
+64: 
+65: <br>
+66: <%=dbUser%>
+67: 
+68: </body>
+69: </html>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [66] in the jsp file: [/basic/viewMemberList.jsp]
+dbUser cannot be resolved to a variable
+63: </table>
+64: 
+65: <br>
+66: <%=dbUser%>
+67: 
+68: </body>
+69: </html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:569)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:380)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 19:28:40.964 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [63] in the jsp file: [/basic/viewMemberList.jsp]
+dbUser cannot be resolved to a variable
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+61: 	}
+62: %>
+63: <%=dbUser%>
+64: </table>
+65: 
+66: <br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [63] in the jsp file: [/basic/viewMemberList.jsp]
+dbUser cannot be resolved to a variable
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+61: 	}
+62: %>
+63: <%=dbUser%>
+64: </table>
+65: 
+66: <br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:569)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:380)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 19:28:45.042 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [63] in the jsp file: [/basic/viewMemberList.jsp]
+dbUser cannot be resolved to a variable
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+61: 	}
+62: %>
+63: <%=dbUser%>
+64: </table>
+65: 
+66: <br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [63] in the jsp file: [/basic/viewMemberList.jsp]
+dbUser cannot be resolved to a variable
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+61: 	}
+62: %>
+63: <%=dbUser%>
+64: </table>
+65: 
+66: <br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:569)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:380)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 19:29:11.182 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error on tokens, delete these tokens
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+out.write cannot be resolved to a type
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error, insert ">" to complete ReferenceType1
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Constructor call must be the first statement in a constructor
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+The left-hand side of an assignment must be a variable
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [50] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+47: 	<td><%= rs.getString("password") %></td>
+48: </tr>
+49: <%
+50: 		}
+51: 	} catch(SQLException ex) {
+52: 		out.println(ex.getMessage());
+53: 		ex.printStackTrace();
+
+
+An error occurred at line: [56] in the jsp file: [/basic/viewMemberList.jsp]
+rs cannot be resolved to a variable
+53: 		ex.printStackTrace();
+54: 	} finally {
+55: 		// 6. 사용한 Statement 종료
+56: 		if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+
+
+An error occurred at line: [56] in the jsp file: [/basic/viewMemberList.jsp]
+rs cannot be resolved
+53: 		ex.printStackTrace();
+54: 	} finally {
+55: 		// 6. 사용한 Statement 종료
+56: 		if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+
+
+An error occurred at line: [57] in the jsp file: [/basic/viewMemberList.jsp]
+stmt cannot be resolved to a variable
+54: 	} finally {
+55: 		// 6. 사용한 Statement 종료
+56: 		if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+
+
+An error occurred at line: [57] in the jsp file: [/basic/viewMemberList.jsp]
+stmt cannot be resolved
+54: 	} finally {
+55: 		// 6. 사용한 Statement 종료
+56: 		if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+
+
+An error occurred at line: [60] in the jsp file: [/basic/viewMemberList.jsp]
+conn cannot be resolved to a variable
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+61: 	}
+62: %>
+63: 
+
+
+An error occurred at line: [60] in the jsp file: [/basic/viewMemberList.jsp]
+conn cannot be resolved
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+61: 	}
+62: %>
+63: 
+
+
+An error occurred at line: [197] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [199] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [199] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [200] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [200] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [202] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [203] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [205] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [208] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [208] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [211] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [212] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error on tokens, delete these tokens
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+out.write cannot be resolved to a type
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error, insert ">" to complete ReferenceType1
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Constructor call must be the first statement in a constructor
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+The left-hand side of an assignment must be a variable
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [29] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+26: 		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
+27: 		String dbUser = "testuser";
+28: 		String dbPass = "Testuser1!";
+29: 		<%=dbUser%>
+30: 		String query = "select * from MEMBER order by memberid";
+31: 		
+32: 		// 2. 데이터베이스 커넥션 생성
+
+
+An error occurred at line: [50] in the jsp file: [/basic/viewMemberList.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+47: 	<td><%= rs.getString("password") %></td>
+48: </tr>
+49: <%
+50: 		}
+51: 	} catch(SQLException ex) {
+52: 		out.println(ex.getMessage());
+53: 		ex.printStackTrace();
+
+
+An error occurred at line: [56] in the jsp file: [/basic/viewMemberList.jsp]
+rs cannot be resolved to a variable
+53: 		ex.printStackTrace();
+54: 	} finally {
+55: 		// 6. 사용한 Statement 종료
+56: 		if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+
+
+An error occurred at line: [56] in the jsp file: [/basic/viewMemberList.jsp]
+rs cannot be resolved
+53: 		ex.printStackTrace();
+54: 	} finally {
+55: 		// 6. 사용한 Statement 종료
+56: 		if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+
+
+An error occurred at line: [57] in the jsp file: [/basic/viewMemberList.jsp]
+stmt cannot be resolved to a variable
+54: 	} finally {
+55: 		// 6. 사용한 Statement 종료
+56: 		if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+
+
+An error occurred at line: [57] in the jsp file: [/basic/viewMemberList.jsp]
+stmt cannot be resolved
+54: 	} finally {
+55: 		// 6. 사용한 Statement 종료
+56: 		if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+
+
+An error occurred at line: [60] in the jsp file: [/basic/viewMemberList.jsp]
+conn cannot be resolved to a variable
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+61: 	}
+62: %>
+63: 
+
+
+An error occurred at line: [60] in the jsp file: [/basic/viewMemberList.jsp]
+conn cannot be resolved
+57: 		if (stmt != null) try { stmt.close(); } catch(SQLException ex) {}
+58: 		
+59: 		// 7. 커넥션 종료
+60: 		if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+61: 	}
+62: %>
+63: 
+
+
+An error occurred at line: [197] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [199] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [199] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [200] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [200] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [202] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [203] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [205] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [208] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [208] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [211] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [212] in the generated java file: [/home/tomcat/apache-tomcat-8.5.78/work/Catalina/jspsvr/src/org/apache/jsp/basic/viewMemberList_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:569)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:380)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-Jul-2022 19:30:32.803 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/src] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [66] in the jsp file: [/basic/viewMemberList.jsp]
+dbUser cannot be resolved to a variable
+63: %>
+64: 
+65: </table>
+66: 	<%=dbUser%>
+67: <br>
+68: 
+69: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [66] in the jsp file: [/basic/viewMemberList.jsp]
+dbUser cannot be resolved to a variable
+63: %>
+64: 
+65: </table>
+66: 	<%=dbUser%>
+67: <br>
+68: 
+69: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:569)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:380)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1647)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
