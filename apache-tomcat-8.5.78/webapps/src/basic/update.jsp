@@ -8,7 +8,7 @@
 <%
 	request.setCharacterEncoding("utf-8");
 	
-	String memberID = request.getParameter("memberID");
+	String memberID = request.getParameter("id");
 	String name = request.getParameter("name");
 	
 	int updateCount = 0;
@@ -19,13 +19,11 @@
 	Statement stmt = null;
 	
 	try {
-		String jdbcDriver = "jdbc:mysql://localhost:3306/chap14?" +
-							"useUnicode=true&characterEncoding=utf8";
-		String dbUser = "jspexam";
-		String dbPass = "jsppw";
+		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+		String dbUser = "dbuser";
+		String dbPass = "Dbuser1!";
 		
-		String query = "update MEMBER set NAME = '"+name+"' "+
-					   "where MEMBERID = '"+memberID+"'";
+		String query = "update table1 set NAME = '"+name+"' "+ "where id = '"+memberID+"'";
 		
 		conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
 		stmt = conn.createStatement();

@@ -1,0 +1,51 @@
+24-Aug-2022 23:54:28.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+24-Aug-2022 23:54:29.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1160.36.2.el7.x86_64
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/jdk1.8.0_301/jre
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tomcat/apache-tomcat-8.5.78
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tomcat/apache-tomcat-8.5.78
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tomcat/apache-tomcat-8.5.78/conf/logging.properties
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Aug-2022 23:54:29.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Aug-2022 23:54:29.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Aug-2022 23:54:29.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Aug-2022 23:54:29.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Aug-2022 23:54:29.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tomcat/apache-tomcat-8.5.78
+24-Aug-2022 23:54:29.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tomcat/apache-tomcat-8.5.78
+24-Aug-2022 23:54:29.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tomcat/apache-tomcat-8.5.78/temp
+24-Aug-2022 23:54:29.016 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Aug-2022 23:54:29.628 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Aug-2022 23:54:29.698 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1662 ms
+24-Aug-2022 23:54:29.802 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Aug-2022 23:54:29.802 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+24-Aug-2022 23:54:29.865 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war]
+24-Aug-2022 23:54:30.445 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Aug-2022 23:54:30.492 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tomcat/apache-tomcat-8.5.78/webapps/warDeploy.war] has finished in [626] ms
+24-Aug-2022 23:54:30.493 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT]
+24-Aug-2022 23:54:30.784 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Aug-2022 23:54:30.785 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/ROOT] has finished in [292] ms
+24-Aug-2022 23:54:30.786 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs]
+24-Aug-2022 23:54:30.961 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Aug-2022 23:54:30.962 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/docs] has finished in [176] ms
+24-Aug-2022 23:54:30.962 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples]
+24-Aug-2022 23:54:31.502 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Aug-2022 23:54:31.507 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Aug-2022 23:54:31.507 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Aug-2022 23:54:31.508 INFO [jspsvr-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1c7e86e6')
+24-Aug-2022 23:54:31.521 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/examples] has finished in [559] ms
+24-Aug-2022 23:54:31.521 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager]
+24-Aug-2022 23:54:31.792 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Aug-2022 23:54:31.794 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/host-manager] has finished in [273] ms
+24-Aug-2022 23:54:31.794 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager]
+24-Aug-2022 23:54:31.890 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Aug-2022 23:54:31.892 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/manager] has finished in [98] ms
+24-Aug-2022 23:54:31.892 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src]
+24-Aug-2022 23:54:32.070 INFO [jspsvr-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Aug-2022 23:54:32.073 INFO [jspsvr-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tomcat/apache-tomcat-8.5.78/webapps/src] has finished in [180] ms
+24-Aug-2022 23:54:32.083 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Aug-2022 23:54:32.126 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2427 ms

@@ -1,0 +1,1 @@
+192.168.1.21 - - [16/Aug/2022:00:09:11 +0900] "GET /src/basic/viewMemberList.jsp HTTP/1.1" 200 584

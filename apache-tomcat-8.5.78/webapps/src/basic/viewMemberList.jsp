@@ -9,7 +9,7 @@
 <head><title>회원 목록</title></head>
 <body>
 
-MEMBER 테이블의 내용
+table1 테이블의 내용
 <table width="100%" border="1">
 <tr>
 	<td>이름</td><td>아이디</td><td>이메일</td>
@@ -23,10 +23,10 @@ MEMBER 테이블의 내용
 	ResultSet rs = null;
 	
 	try {
-		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/testdb?" + "useUnicode=true&characterEncoding=utf8";
-		String dbUser = "testuser";
-		String dbPass = "Testuser1!";
-		String query = "select * from MEMBER order by memberid";
+		String jdbcDriver = "jdbc:mysql://192.168.1.95:3306/firstdb?" + "useUnicode=true&characterEncoding=utf8";
+		String dbUser = "dbuser";
+		String dbPass = "Dbuser1!";
+		String query = "select * from table1 order by id";
 		
 		// 2. 데이터베이스 커넥션 생성
 		conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
@@ -44,8 +44,8 @@ MEMBER 테이블의 내용
 
 <tr>
 	<td><%= rs.getString("name") %></td>
-	<td><%= rs.getString("memberid") %></td>
-	<td><%= rs.getString("password") %></td>
+	<td><%= rs.getString("id") %></td>
+	<td><%= rs.getString("mail_address") %></td>
 </tr>
 <%
 		}
