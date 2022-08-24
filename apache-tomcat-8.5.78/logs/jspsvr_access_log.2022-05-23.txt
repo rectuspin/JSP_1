@@ -1,4 +1,0 @@
-192.168.1.21 - - [23/May/2022:22:55:06 +0900] "GET /src/basic/includeFile.jsp HTTP/1.1" 500 2553
-192.168.1.21 - - [23/May/2022:22:55:23 +0900] "GET /src/basic/includeFile.jsp HTTP/1.1" 500 3372
-192.168.1.21 - - [23/May/2022:22:57:21 +0900] "GET /src/basic/includeFile.jsp HTTP/1.1" 500 2113
-192.168.1.21 - - [23/May/2022:22:57:43 +0900] "GET /src/basic/includeFile.jsp HTTP/1.1" 200 202
